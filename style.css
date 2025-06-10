@@ -1,0 +1,57 @@
+body {
+    background-color: #0b254b;
+    color: #e8c598;
+    font-family: 'Segoe UI', sans-serif;
+    padding: 20px;
+    margin: 0;
+  } 
+  
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    margin-bottom: 10px;
+  }
+  
+  .controls {
+    display: flex;
+    gap: 10px;
+  }
+  
+  select,
+  #searchInput {
+    padding: 8px;
+    background: transparent;
+    border: 1px solid #f8d9b0;
+    color: #f8d9b0;
+    font-size: 16px;
+  }
+  
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  
+  .card {
+    border: 1px solid #f8d9b0;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #161b22;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .card h2 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #ffcc99;
+  }
+  
+  .card p {
+    margin: 5px 0;
+  }
+  
